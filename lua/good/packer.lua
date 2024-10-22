@@ -8,9 +8,13 @@ return require('packer').startup(function(use)
 	  requires = { {'nvim-lua/plenary.nvim'} }
   }
 
+  use({ "elixir-tools/elixir-tools.nvim", tag = "stable", requires = { "nvim-lua<your-folder-name>plenary.nvim" }})
+
   use "rebelot/kanagawa.nvim"
 
   use('nvim-treesitter/nvim-treesitter', { run = ':TSUpdate' })
+
+  use "https://github.com/apple/pkl-neovim"
 
   use {
 	  'VonHeikemen/lsp-zero.nvim',
