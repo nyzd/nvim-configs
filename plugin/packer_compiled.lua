@@ -104,6 +104,11 @@ _G.packer_plugins = {
     path = "/home/zeus/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
+  ["elixir-tools.nvim"] = {
+    loaded = true,
+    path = "/home/zeus/.local/share/nvim/site/pack/packer/start/elixir-tools.nvim",
+    url = "https://github.com/elixir-tools/elixir-tools.nvim"
+  },
   ["friendly-snippets"] = {
     loaded = true,
     path = "/home/zeus/.local/share/nvim/site/pack/packer/start/friendly-snippets",
@@ -139,6 +144,11 @@ _G.packer_plugins = {
     path = "/home/zeus/.local/share/nvim/site/pack/packer/start/nvim-lspconfig",
     url = "https://github.com/neovim/nvim-lspconfig"
   },
+  ["nvim-lua<your-folder-name>plenary.nvim"] = {
+    loaded = true,
+    path = "/home/zeus/.local/share/nvim/site/pack/packer/start/nvim-lua<your-folder-name>plenary.nvim",
+    url = "https://github.com/nvim-lua<your-folder-name>plenary.nvim"
+  },
   ["nvim-treesitter"] = {
     loaded = true,
     path = "/home/zeus/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
@@ -148,6 +158,11 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/zeus/.local/share/nvim/site/pack/packer/start/packer.nvim",
     url = "https://github.com/wbthomason/packer.nvim"
+  },
+  ["pkl-neovim"] = {
+    loaded = true,
+    path = "/home/zeus/.local/share/nvim/site/pack/packer/start/pkl-neovim",
+    url = "https://github.com/apple/pkl-neovim"
   },
   ["plenary.nvim"] = {
     loaded = true,
